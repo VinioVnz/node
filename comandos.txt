@@ -8,3 +8,21 @@ flag são instruções de configuração
 --save-dev ou -D instala o pacote apenas no ambiente de desenvolvimento
 
 npm install ou npm i - verifica e instala todas as dependencias listadas no package.json
+
+instalação global - uso sempre que um pacote precisa ficar disponivel em qualquer projeto
+
+npm i -g <nome_do_pacote>
+
+condigurar typescript 
+npx tsc --init - cria um arquivo de configuração chamado tsconfig.json
+
+
+arquitetura sugerida de pastas
+
+projeto
+/src
+    /index.ts
+/dist
+    /index.js
+/package.json
+/tsconfig.json
